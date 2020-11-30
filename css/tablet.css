@@ -1,0 +1,31 @@
+.main-product-plan{
+    position: relative;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    overflow-x: visible;
+
+}
+.products-container{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+.plans-contanier__card {
+    margin: 0 10px
+}
+.product-cards__container{
+    margin: 0;
+    display: flex;
+    justify-self: center;
+}
+.product-cards__container .right{
+    justify-self: start;
+}
+.main-tables-container{
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}

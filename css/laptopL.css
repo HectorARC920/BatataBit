@@ -1,0 +1,14 @@
+.products-container{
+    display: grid;
+    grid-template-columns: 550px 550px;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 25px;
+}
+
+.product-cards__container{
+    margin: 10px 0;
+    display: flex;
+    justify-self: center;
+}
